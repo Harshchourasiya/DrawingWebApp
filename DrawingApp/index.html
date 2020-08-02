@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Drawing App</title>
+</head>
+<body>
+  <section id="drawingArea">
+    <canvas id="canvas" width="1000px" height="650px"></canvas>
+    <section id="forSelectors">
+      <label for="color">Enter Color : </label>
+      <input name="color" type="color" id="myColor"/>
+      <label for="width">Enter width : </label>
+      <input type="number" name="width" id="width" width="10px" height="10px" value="4"/> 
+      <button id="button" onclick="toApply()">Apply</button>
+      <button id="toClear" onclick="toClean()">All Clear</button>
+      <label for="width">Enter Erase Width : </label>
+      <input type="number" name="width" id="widthForErase" width="10px" height="10px" value="10"/> 
+      <button onclick="toErase()">Eraser</button>
+      <label for="">Styles Line: </label>
+      <label for="">Enter Circle Width : </label>
+      <input type="number" name="width" id="widthForCircle" width="10px" height="10px" value="20"/> 
+      <input type="number" name="width" id="ThicknessForCircle" width="10px" height="10px" value="2"/>
+      <button onclick="toMakeCircle()">Circle Style</button>
+      <label for="">Click There to Start Animation : </label>
+      <button onclick="startAnimation()">Animation</button>
+      <button onclick="stopAnimation()">Stop Animation</button>
+      <button onclick="playAnimation()">Play Animation</button>
+    </section>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#canvas {
+  /* display: inline; */
+  margin-left: 50px;
+  border: 1px solid black;
+}
+#drawingArea{
+  display: flex;
+}
+#forSelectors{
+ display: flex;
+ flex-direction: column;
+}
+#forSelectors input{
+  margin-top: 10px;
+  margin-left: 20px;
+  
+ }
+ #forSelectors label{
+  margin-top: 10px;
+  margin-left: 20px;
+ }
+ #forSelectors button{
+  margin-top: 10px;
+  margin-left: 20px;
+ }
