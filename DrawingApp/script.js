@@ -128,7 +128,3 @@ setInterval(function(){
   alert("please Record Animation first!")
 }
 }
-
-/// so i am here to do something really intresting 
-// i am not here to wast em y timeso 
-// i want when button is pressed i will recored all his
